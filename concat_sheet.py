@@ -8,5 +8,5 @@ for entry in entries:
         print(entry.name)
         data1 = pd.read_excel(entry, header=1)
         data = pd.concat([data1, data])
-data.to_excel("汇总表.xlsx", index=False, sheet_name="表三")
+data.to_excel("汇总表.xlsx", index=False, sheet_name="表一")
 
